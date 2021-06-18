@@ -11,7 +11,7 @@ import sys
 if sys.version_info < (3,):
     sys.exit('Sorry, Python3 is required for fairseq.')
 
-with open('README.md') as f:
+with open('README-original.md') as f:
     readme = f.read()
 
 if sys.platform == 'darwin':
